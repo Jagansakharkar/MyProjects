@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <div class="container">
+    <h1>Calculator</h1>
+    <div class="content">
+       <textarea id="output" name="output"></textarea><br><br>
+      <button value="+" id="add" onclick="output.value+='+'">+</button>
+      <button value="-" id="sub" onclick="output.value+='-'">-</button>
+      <button value="*" id="mul" onclick="output.value+='*'">&times;</button>
+      <button value="/"id="div" onclick="output.value+='/'">&div;</button><br>
+      <button value="7" id="n7" onclick="output.value+=7">7</button>
+      <button value="8" id="n8" onclick="output.value+=8">8</button>
+      <button value="9" id="n9" onclick="output.value+=9">9</button>
+      <button value="4" id="n4" onclick="output.value+=4">4</button><br>
+      <button value="5" id="n5" onclick="output.value+=5">5</button>
+      <button value="6" id="n6" onclick="output.value+=6">6</button>
+      <button value="1" id="n1" onclick="output.value+=1">1</button>
+    <button value="2" id="n2" onclick="output.value+=2">2</button><br>
+      <button value="3"  id="n3" onclick="output.value+=3">3</button>
+      <button id="0" onclick="output.value+=0">0</button>
+      <button id="dot" onclick="output.value+='.'">.</button>
+      <button id="c" onclick="output.value=output.value.toString().slice(0,-1)">C</button><br>
+      <button value="=" id="equalto" onclick="output.value=eval(output.value)">=</button>
+      <button id="ac" onclick="output.value=' '">AC</button>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

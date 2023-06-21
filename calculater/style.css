@@ -1,0 +1,50 @@
+h1{
+  text-align: center;
+}
+#output{
+ width: 90%;
+  padding: 10px;
+  font-size: 22px;
+  border: 2px solid  rgb(235, 64, 12);
+  direction:rtl;
+  resize: none;
+}
+.container{
+  box-sizing: border-box;
+  /* margin: 10px auto; */
+  width: 100%;
+  height: 100%;
+}
+button:not(#equalto){
+  width: 23%;
+  height: 13%;
+  margin: 1px;
+  background-color: rgb(42, 189, 83);
+  outline: none;
+ 
+  color: white;
+}
+button:hover{
+  transition: 0.2s;
+  border: 1px solid black;
+}
+#equalto{
+ width:74% ;
+ height: 13%;
+ background-color:  rgb(235, 64, 12);
+  color: white;
+}
+#equalto:hover{
+  transition: 0.2s;
+}
+.content{
+  padding: 15px;
+  background-color: coral;
+  border: 6px solid rgb(235, 64, 12);
+  margin: 10px auto;
+  width: 26%;
+  min-width: 250px;
+  height: 355px;
+  padding: 15px;
+  
+}
